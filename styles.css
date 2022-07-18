@@ -100,10 +100,46 @@ body {
 .image-board{
     display: flex;
     flex-direction: column;
+    margin: 30px 100px;
 }
 .image-board-header{
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
     padding: 10px;
+    text-align: center;
+    padding: 40px;
 }
+
+.image-board-images {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    flex-wrap: wrap;
+    gap: 80px;
+    margin-bottom: 70px;
+}
+
+.info-image-board{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between ;
+    text-align: center;
+    gap: 20px;
+}
+
+.info-image-board-text {
+    width: 150px;
+    text-align: center;
+}
+
+.info-image-board-image{
+    width: 250px;
+    height: 250px;
+    align-items: center;
+    border-radius: 20px;
+
+}
+
+
