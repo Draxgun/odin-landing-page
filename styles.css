@@ -10,7 +10,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color:#1d2937;
+    background-color:#ec5192;
     padding: inherit;
 }
 
@@ -73,14 +73,14 @@ body {
 
 .placeholder-image {
     width: 100%;
-    max-width: 800px;
+    max-width: 500px;
     min-width: 200px;
     height: auto;
     border-radius: 20px;
 }
 
 .sign-up{
-    background-color: #3882f6;
+    background-color: #ad2960;
     width: fit-content;
     padding: 10px;
     border-radius: 10px;
@@ -105,7 +105,7 @@ body {
 .image-board-header{
     font-size: 36px;
     font-weight: 900;
-    color: #1f2937;
+    color: #ad2960;
     padding: 10px;
     text-align: center;
     padding: 40px;
@@ -132,6 +132,7 @@ body {
 .info-image-board-text {
     width: 150px;
     text-align: center;
+    color: #ec5192;
 }
 
 .info-image-board-image{
@@ -148,7 +149,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: #e5e7eb;;
+    background: #e295b5;;
     padding: inherit;
 }
 
@@ -163,7 +164,7 @@ body {
 
 .quote-text{
     font-size: 36px;
-    color: #1f2937;
+    color: white;
     font-style: italic;
     margin: 0px 100px;
     font-weight: lighter;
@@ -172,7 +173,7 @@ body {
 .quote-author{
     display: flex;
     font-size: 18px;
-    color: #1f2937;
+    color: white;
     width: 850px;
     justify-content: right;
 
@@ -193,7 +194,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background:#3882f6;
+    background: #ec5192;
     padding: 20px 100px;
     border-radius: 20px;
     gap: 100px;
@@ -228,7 +229,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color:#1d2937;
+    background-color:#ec5192;
     padding: inherit;
 }
 .footer{
