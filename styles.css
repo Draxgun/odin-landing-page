@@ -1,14 +1,23 @@
 body {
  font-family:'Roboto', sans-serif;
- background-color: #1d2937 ;
- margin: 10px 250px;
+ background-color:  #1d2937 ; 
 }
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 
 .welcome-board{
     display: flex;
     flex-direction: column;
-    flex-shrink: 0;
-    color: white;
+    color:white;
+    padding: 10px;
+    margin: 0;
+
+    
 }
 
 .header{
@@ -16,17 +25,29 @@ body {
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 100px;
+    align-items: center;
+    
 }
 
 .title-logo {
     font-size: 24px;
     font-weight: bold;
-    color: #f9faf8;
+    color: white;
+}
+
+.right-links{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    color:#f9faf89c;
+    
 }
 
 .intro {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    gap: 20px;
 }
 
 .intro-message{
@@ -39,17 +60,25 @@ body {
     font-size: 48px;
     color: #f9faf8;
     font-weight: bolder;
-    width: 500px;
+    width: 400px;
 }
 
 .intro-text{
-    width: 500px;
     font-size: 18px;
+    width: 500px;
 }
 
 .placeholder-image {
-    width: 800px;
+    width: 600px;
     height: auto;
-    justify-content: center;
+    border-radius: 20px;
+    
+}
+
+.sign-up{
+    background-color: #3882f6;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
 }
 
